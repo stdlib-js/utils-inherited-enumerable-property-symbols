@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@deno/mod.js';
+import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@v0.2.0-deno/mod.js';
 ```
 
 #### inheritedEnumerablePropertySymbols( obj\[, level] )
@@ -110,7 +110,7 @@ var symbols = inheritedEnumerablePropertySymbols( [], 1 );
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
-import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@deno/mod.js';
+import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@v0.2.0-deno/mod.js';
 
 var hasSymbols = hasSymbolSupport();
 var symbols;
