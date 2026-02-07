@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-inherited-enumerable-property-symbols/tags). For example,
+
+```javascript
 import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@v0.2.3-deno/mod.js';
 ```
 
@@ -110,7 +115,7 @@ var symbols = inheritedEnumerablePropertySymbols( [], 1 );
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
 import hasSymbolSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-symbol-support@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
-import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@v0.2.3-deno/mod.js';
+import inheritedEnumerablePropertySymbols from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inherited-enumerable-property-symbols@deno/mod.js';
 
 var hasSymbols = hasSymbolSupport();
 var symbols;
